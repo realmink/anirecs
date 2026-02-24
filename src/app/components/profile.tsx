@@ -31,7 +31,7 @@ export default function Profile({ username, setUsername }: { username: string, s
         <div>
             <input 
             type="text" 
-            placeholder="Enter your MAL/Anilist profile link here." 
+            placeholder="Enter your Anilist profile link here." 
             className="border-2 border-b-gray-200 rounded-md " 
             value={username}
             onBlur={handleBlur}
